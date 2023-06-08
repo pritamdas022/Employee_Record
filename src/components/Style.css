@@ -1,0 +1,94 @@
+.Form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    background-color: rgb(156, 157, 158);
+    margin-top: 15%;
+    margin-left: 35%;
+    border: 2px solid rgb(190, 188, 188);
+}
+.form-field{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 3%;
+}
+input{
+    padding: 10px;
+    border:blue;
+    border-radius: 5px;
+    width:100%
+}
+label{
+    display: flex;
+    margin-bottom: 3%;
+}
+.submit{
+    width: 100%;
+    margin-left: 3%;
+    margin-bottom: 10%;
+    padding: 10px;
+    background-color: rgb(91, 91, 91);
+    border:none;
+    color: white;
+    margin-top: 3%;
+    font-size: 20px;
+}
+
+.navbar{
+    display: flex;
+    height: 70px;
+    background-color: rgb(205,221,223);
+    align-items: center;
+    
+}
+.button{
+    position: absolute;
+    right: 20px;
+}
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(213, 43, 52);
+    color: white;
+    cursor: pointer;
+}
+.select-status{
+    margin: top 5%;
+    margin-left: 100px;
+}
+select{
+    padding: 20px;
+    background-color: rgb(210,207,207);
+    font-size: 20px;
+    border: none;
+}
+.table{
+    margin-top: 8%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+table,th,td{
+    border: 1px solid rgb(214, 213, 213);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-collapse: collapse;
+    font-size: 20px;
+    padding: 20px;
+}
+table{
+    width: 100%;
+}
+.Inactive{
+    background-color: #f14438;
+    color: #8e1108;
+}
+
+.Active{
+    background-color: rgb(142, 218, 142);
+    color: darkgreen;
+}
